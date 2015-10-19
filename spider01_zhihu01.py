@@ -14,5 +14,5 @@ for i in xrange(1, 7):
 	lst = select.findall(html)
 
 	for i in lst:
-		print 'address:  ', 'http://www.zhihu.com/' + i[0]
+		print 'address:  ', 'http://www.zhihu.com' + i[0]
 		print 'question: ', i[1]
